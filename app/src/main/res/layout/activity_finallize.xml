@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imgpsh_fullsize_anim"
+    tools:context=".SignUpActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/data"
+        android:layout_width="283dp"
+        android:layout_height="327dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginLeft="57dp"
+        android:layout_marginTop="181dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginBottom="215dp"
+        android:focusableInTouchMode="false"
+        android:orientation="vertical"
+        card_view:cardCornerRadius="9dp"
+        card_view:cardElevation="8dp"
+        card_view:cardPreventCornerOverlap="false"
+        card_view:layout_constraintBottom_toBottomOf="parent"
+        card_view:layout_constraintEnd_toEndOf="parent"
+        card_view:layout_constraintStart_toStartOf="parent"
+        card_view:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:orientation="vertical">
+
+            <com.hoodable.FontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:text="@string/tab_below_to_finalize_your_sign_up_you_will_be_sent_a_code_in_text_message_this_code_will_verify_your_account"
+                android:textColor="@color/colorblack"
+                android:textSize="16sp" />
+
+
+            <include layout="@layout/finalize" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal">
+
+                <RelativeLayout
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/round_red" />
+
+                <RelativeLayout
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/round_red" />
+
+                <RelativeLayout
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/round_red" />
+
+                <RelativeLayout
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/round_red" />
+
+                <RelativeLayout
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/round_red" />
+
+            </LinearLayout>
+
+            <com.hoodable.FontButtonView
+                android:id="@+id/but_continue"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/round_button"
+                android:text="@string/contnue"
+
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

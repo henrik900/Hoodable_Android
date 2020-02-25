@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Hoodable</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">New User ? Sign up here</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="name">Given Name</string>
+    <string name="familyname">Family Name</string>
+    <string name="postal_code">Postal Code</string>
+    <string name="pasowrd">Password</string>
+    <string name="contnue">Continue</string>
+    <string name="d_o_b">Date of Birth</string>
+    <string name="tab_below_to_finalize_your_sign_up_you_will_be_sent_a_code_in_text_message_this_code_will_verify_your_account">Tab below to finalize your sign-up You will be sent a code in text message.This code will verify your account</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Saurav Singh</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="profile">Profile</string>
+    <string name="add_image">Add Image</string>
+    <string name="setLang">Set Language</string>
+    <string name="not">Notification</string>
+</resources>
